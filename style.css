@@ -46,6 +46,37 @@ h2{
 
 hr{
     height  : 10px;
-    background-color: rgba(69, 151, 62, 0.753)
+    background-image: linear-gradient(to right, red , yellow);   
+}
 
+/* recipe items */
+.recipe-item {
+    height : auto;
+    width : auto;
+
+}
+
+.header {
+    font-size: 20px;
+    height : 30px;
+    /* width : 0%; */
+    display : flex;
+    margin-top: 10px;
+    margin-bottom : 10px;
+    border : 2px solid red;
+}
+.index {
+    margin : 5px;
+    padding : 3px;
+    border-right : 1px solid black;
+    align-self: center;
+}
+.title {
+    margin : 5px;
+    align-self: center;
+}
+
+.recipe-image {
+    height : 250px;
+    width : 30px;
 }
