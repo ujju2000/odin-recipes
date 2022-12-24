@@ -63,7 +63,7 @@ hr{
     display : flex;
     margin-top: 10px;
     margin-bottom : 10px;
-    border : 2px solid red;
+    /* border : 2px solid red; */
 }
 .index {
     margin : 5px;
@@ -71,12 +71,41 @@ hr{
     border-right : 1px solid black;
     align-self: center;
 }
+
 .title {
     margin : 5px;
     align-self: center;
+
 }
 
-.recipe-image {
-    height : 250px;
-    width : 30px;
+.recipe-img {
+    height : 15rem;
+    width : 30rem;
+}
+
+.btn {
+    cursor : pointer;
+    height : 20px;
+    width : 11rem;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding : 22px;
+    
+    margin : 20px;
+    letter-spacing: .10rem;
+    margin-left : 120px;
+    padding-top: 10px;
+}
+.btn a {
+    text-decoration: none;
+    color : white;
+    text-align: center;
+}
+
+.btn a:hover {
+    color : gray;
+    /* background-color: rgb(219, 101, 22); */
+    transition :cubic-bezier(1, 0, 0, 1)
 }
